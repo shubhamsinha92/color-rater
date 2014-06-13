@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Color Rater!</title>   
+    <title>Color Rater!</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+     <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
   </head>
   <body>
    
@@ -10,6 +12,8 @@
         <h1 class="logo">Color Rater</h1>
       </div>
     </header>
+
+    <div id="map"></div>
      
     <div class="container">
       {% block content %}
