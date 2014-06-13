@@ -11,7 +11,8 @@
 
 div.jumbo {
   padding: 2px 0 2px 0;
-  background-color: #eeeeee;
+  background: -moz-linear-gradient(center top , #B0DE5C, #82CB00) repeat scroll 0 0 #B0DE5C;
+  color: #FFFFFF;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
