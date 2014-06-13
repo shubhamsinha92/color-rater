@@ -1,45 +1,29 @@
-<!-- <!DOCTYPE html>
-<html>
-  <head>
-    <title>Color Rater!</title>
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-     <style> 
-     #map { height: 180px; }
-     </style>
-  </head>
-  <body>
-   
-    <header>
-      <div class="container">
-        <h1 class="logo">Color Rater</h1>
-      </div>
-    </header>
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+<!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
+<![endif]-->
 
-    <div id="map">
-      <style> 
-     #map { height: 180px; }
-     </style>
-    </div>
-  </body>
-  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js">
-  var map = L.map('map').setView([51.505, -0.09], 13);
-  L.tileLayer('http://{s}.tiles.mapbox.com/v3/MapID/{z}/{x}/{y}.png', {
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-    maxZoom: 18
-}).addTo(map);
-  </script>
-</html> -->
-
-<!DOCTYPE HTML>
-
-
-<div id="map"/>
-    <script type="text/javascript" src="http://cdn.leafletjs.com/leaflet-0.4/leaflet.js"></script>
-    <script type="text/javascript">
-    var map = L.map('map').setView([28.23211669921875, -26.050065042385917], 10);
-//    L.tileLayer('http://b.tilecloudmade.com/e7b61e61295a44a5b319ca0bd3150890/997/256/18/149531/108306.png', {
-        L.tileLayer('http://{s}.tile.cloudmade.com/e7b61e61295a44a5b319ca0bd3150890/997/256/{z}/{x}/{y}.png', {
-        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery Â© <a href="http://cloudmade.com">CloudMade</a>',
-        maxZoom: 18
-        }).addTo(map);
-    </script>
+<script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+<style>
+#map {
+  width:960px;
+  height:500px;
+}
+</style>
+</head>
+ 
+<body>
+  <div id="map"></div>
+<script>
+window.onload = function () {
+  var map = L.map('map').setView([43.07265,-89.400929], 10);
+  
+  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+};
+</script>
+</body>
+</html>
