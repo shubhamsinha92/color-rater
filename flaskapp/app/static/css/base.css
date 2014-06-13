@@ -1,27 +1,37 @@
 
 
 #map {
-  width:900px;
-  height:500px;
+  width:960px;
+  height:570px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 8px;
 
 }
 
-div.jumbo {
-  padding: 2px 0 2px 0;
-  background: -moz-linear-gradient(center top , #B0DE5C, #82CB00) repeat scroll 0 0 #B0DE5C;
-  color: #FFFFFF;
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
+header {
+  background-color: #2B2B2B;
+  height: 35px;
+  width: 100%;
+  opacity: .9;
+  margin-bottom: 10px;
 }
  
-h2 {
+header h1.logo {
+  margin: 0;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  float: left;
+}
+ 
+header h1.logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
 
-  font-size: 2.5em;
-  text-align: center;
-  letter-spacing: -2px;
+.container {
+  width: 940px;
+  margin: 0 auto;
 }
- 
+
