@@ -6,6 +6,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 8px;
+  border: 1px solid #2B2B2B ;
 
 }
 
@@ -21,7 +22,7 @@ header h1.logo {
   margin: 0;
   font-size: 1.7em;
   color: #fff;
-  text-transform: uppercase;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   float: left;
 }
  
