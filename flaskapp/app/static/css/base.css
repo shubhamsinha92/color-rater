@@ -6,7 +6,8 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 8px;
-  border: 1px solid #2B2B2B ;
+  border: 1px solid #2B2B2B;
+  border-radius: 5px;
 
 }
 
@@ -16,6 +17,7 @@ header {
   width: 100%;
   opacity: .9;
   margin-bottom: 10px;
+  border-radius: 5px;
 }
  
 header h1.logo {
